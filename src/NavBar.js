@@ -8,7 +8,7 @@ function NavBar() {
     return (
         <div>
             <nav className={styles.navstyling}>
-                <h2 className={styles.navheading, styles.navheadingmobile}>Azmul Haramain</h2>
+                <h2 className={styles.navheading}>Azmul Haramain</h2>
                 <section className={styles.navmenu}>
                     <section className={styles.navmenumobile}>
                         <ul class="nav justify-content-end">
