@@ -1,0 +1,40 @@
+.productscontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.heading {
+    text-align: center;    
+    padding: 10px;
+}
+
+.productname {
+    font-size: 22px;
+    padding-top: 10px;
+}
+
+.products {
+    width: 20%;
+    text-align: center;
+    margin: 10px;
+}
+
+.products:hover {
+    color: white;
+    background-color: brown;
+    border-radius: 15px;
+}
+
+.singleproduct {
+    justify-content: center;
+}
+
+.producthead {
+    text-align: center;
+}
+
+.productimg {
+    width: 30%;
+    margin: 10px 35%;
+}
