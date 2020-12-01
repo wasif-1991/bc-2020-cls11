@@ -16,7 +16,7 @@ function ProductItems() {
             <h1 className={styles.heading}>Welcome to Product Item Page.</h1>
             <div className={styles.singleproduct}>                
                 <h2 className={styles.producthead}>{ahp.name}</h2>
-                <img src={ahp.img} className={styles.productimg} />
+                <img src={ahp.img} className={styles.productimg} alt="Azmul-Haramain-Product"/>
             </div>
         </div>
     );

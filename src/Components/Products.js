@@ -16,7 +16,7 @@ function Products() {
                     return(
                         <Link className={styles.products} key={keyName}
                         to={`/products/${keyName}`} >
-                            <img src={ahproduct.img} width="75%"/>
+                            <img src={ahproduct.img} width="75%" alt="Azmul-Haramain-Products"/>
                             <h2 className={styles.productname} >{ahproduct.name}</h2>                            
                         </Link>
                     );
